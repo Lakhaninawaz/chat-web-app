@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary-color: #102f5d;
+  --secondary-color: #164ea1;
+}
+
+
+body{
+  transition: color 0.5s, background-color 0.5s ease;
+  @apply bg-white dark:bg-secondary-color;
+}
