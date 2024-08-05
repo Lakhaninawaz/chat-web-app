@@ -32,7 +32,7 @@ const Sidebar = () => {
             <NavLink
               to={path}
               className={({ isActive }) =>
-                `flex items-center p-2 rounded ${isActive ? 'bg-blue-600' : 'hover:bg-blue-700'} text-white`
+                `w-full flex items-center p-2 rounded ${isActive ? 'bg-blue-600' : 'hover:bg-blue-700'} text-white`
               }
             >
               <img
